@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+
+hr{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+footer{
+ position: fixed;
+ bottom:0px;
+ left:0px;
+ width:100%;
+ margin-top:2%;
+
+}
+
+li{
+    padding-left: 3px;
+    padding-right: 3px;
+    display:inline;
+}
+
+
+#logo{
+    width: 10%;
+    display:inline;
+    position: absolute;
+    left:5%;
+}
+a{
+    text-decoration: none;
+}

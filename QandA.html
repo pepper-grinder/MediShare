@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="QandA.css">
+    <script src="QandA.js"></script>
+</head>
+<body>
+    <div id="top" class="container-fluid p-5 bg-dark text-white text-center">
+        <span>
+ <svg id="logo" width="197.001" height="165.802" viewBox="0 0 197.001 165.802" xmlns="http://www.w3.org/2000/svg"><g id="svgGroup" stroke-linecap="round" fill-rule="nonzero" font-size="9pt" stroke="#72bd9c" stroke-width="2mm" fill="#72bd9c" style="stroke:#72bd9c;stroke-width:2mm;fill:#72bd9c"><path d="M 9.4 163.801 L 0 163.801 L 4.8 1.801 L 15.6 1.801 L 49.8 148.001 L 84.6 1.801 L 95.8 1.801 L 100.4 163.801 L 91 163.801 L 87 28.001 L 54 163.801 L 46 163.801 L 13.4 28.201 L 9.4 163.801 Z M 121.8 123.801 L 131.2 120.801 A 109.039 109.039 0 0 0 132.941 130.654 A 79.888 79.888 0 0 0 135.5 139.601 A 30.467 30.467 0 0 0 138.832 146.374 A 23.912 23.912 0 0 0 144.4 152.301 A 20.565 20.565 0 0 0 150.972 155.512 Q 153.83 156.358 157.256 156.648 A 44.305 44.305 0 0 0 161 156.801 A 38.773 38.773 0 0 0 168.647 156.092 Q 173.257 155.164 176.835 153.022 A 21.466 21.466 0 0 0 179.9 150.801 A 17.779 17.779 0 0 0 184.736 143.721 Q 185.897 140.76 186.405 137.042 A 46.213 46.213 0 0 0 186.8 130.801 Q 186.8 120.201 181.3 111.701 A 82.338 82.338 0 0 0 176.089 104.58 Q 173.369 101.23 170.03 97.7 A 159.766 159.766 0 0 0 165.8 93.401 L 136.2 64.001 Q 128.8 56.401 125.4 48.801 Q 122 41.201 122 33.201 A 41.303 41.303 0 0 1 123.157 23.128 A 27.638 27.638 0 0 1 131.9 8.601 A 34.292 34.292 0 0 1 147.866 0.927 A 48.765 48.765 0 0 1 157.6 0.001 A 55.173 55.173 0 0 1 165.746 0.576 A 42.725 42.725 0 0 1 172.4 2.101 Q 179 4.201 183.9 8.901 A 28.134 28.134 0 0 1 188.864 15.371 A 38.614 38.614 0 0 1 191.6 21.401 Q 194.4 29.201 195.2 40.601 L 186 42.801 Q 185.388 34.073 183.485 27.572 A 43.681 43.681 0 0 0 182.2 23.801 A 27.433 27.433 0 0 0 179.17 18.082 A 20.493 20.493 0 0 0 173.4 12.501 A 21.325 21.325 0 0 0 167.559 9.971 Q 163.313 8.801 157.8 8.801 A 35.668 35.668 0 0 0 149.16 9.797 A 26.661 26.661 0 0 0 139.4 14.401 A 17.588 17.588 0 0 0 133.175 23.599 Q 132.257 26.616 132.056 30.291 A 38.691 38.691 0 0 0 132 32.401 Q 132 38.601 134.5 44.401 A 28.529 28.529 0 0 0 136.98 48.891 Q 139.55 52.751 143.8 57.001 L 173 85.801 Q 182.8 95.401 189.9 106.301 Q 197 117.201 197 130.201 Q 197 140.018 194.021 147.051 A 28.672 28.672 0 0 1 192.4 150.301 Q 187.8 158.201 179.6 162.001 A 40.571 40.571 0 0 1 168.109 165.31 A 52.607 52.607 0 0 1 160.8 165.801 Q 150.125 165.801 142.58 162.184 A 29.159 29.159 0 0 1 139.7 160.601 A 32.804 32.804 0 0 1 127.373 146.584 A 39.306 39.306 0 0 1 127.1 146.001 A 56.122 56.122 0 0 1 123.483 135.141 Q 122.31 130.016 121.83 124.178 A 92.239 92.239 0 0 1 121.8 123.801 Z" vector-effect="non-scaling-stroke"/></g></svg>
+
+    </span>
+        <span>
+        <h1>MediShare</h1>
+        <p>The smart way to deal with medicine shortages</p> 
+       
+ 
+    <div class="btn-group">
+        <button type="button"  onclick="home()"  class="text-dark btn btn-warning">
+         Home        
+        </button>
+        <button type="button"  onclick="QandA()" class="text-dark btn btn-warning">
+         Doctor Q/A
+        </button>
+        <button type="button" onclick="Post()" class="text-dark btn btn-warning">
+          Home Remedies Post
+        </button>
+        <button type="button" onclick="Maps()"  class="text-dark btn btn-warning">
+         Medicine Locator
+        </button>
+        <button type="button" onclick="update()"  class="text-dark btn btn-warning">
+          Latest Updates
+         </button>
+        
+          </div>
+          </span>
+  </div>
+              </span>
+      </div>
+      <div class="container mt-3">
+        <div class="row bg-light">
+            <div class="bg-primary p-5 mb-5 text-white container-fluid">
+                <h1>Post A Question</h1>
+            </div>
+         
+           <div class="row">
+          <input id="question_input" type="text" class="form-control" placeholder="Enter The Question Here">
+         <span>
+              <button id="question_button" type="button" onclick="submit()" class="btn btn-primary">Submit</button>
+            </span>
+            </div>
+          </div>
+         <div class="container mt-3 mb-3">
+             <div class="row bg-light">
+                 <div class="bg-primary p-5 mb-5 text-white container-fluid">
+                     <h1>Q/A Section</h1>
+                 </div>
+                 <div class="accordion">
+                    <section>
+                        <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3>
+                       
+                      
+                        <div class="row">
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i>Does XYZ home remedies work?</h6>
+                            <p>
+                              <strong><u>Absolutely! </u></strong>XYZ is also used here in ABC hospital
+                               - a doctor
+                            </p>
+                          </div>
+                      
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> Does XYZ medicine work better ABC medicine?</h6>
+                            <p>
+                              <strong><u>ABC Medicine is the best!</u></strong> ABC medicine has more quality than XYZ medicine and more value in each dose
+                               -another doctor
+                            </p>
+                          </div>
+                      
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> Does this work?
+                            </h6>
+                            <p>
+                              <b><u>No</u></b> this doesn't work
+                            </p>
+                          </div>
+                      
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
+                              question?
+                            </h6>
+                            <p>
+                             answer
+                            </p>
+                          </div>
+                      
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
+                              question?
+                            </h6>
+                            no
+                          </div>
+                      
+                          <div class="col-md-6 col-lg-4 mb-4">
+                            <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another question?</h6>
+                            <p>
+                             yes
+                            </p>
+                          </div>
+                        </div>
+                      </section>
+                 </div>
+             </div>
+         </div>          
+        </div>
+      </div> 
+      <br><br><br><br><br>
+      <footer class="bg-dark text-light">
+        <ul>
+          <li onclick="home()" >Home</li>
+          <li onclick="QandA()" >Doctor Q/A</li>
+          <li onclick="Post()"  >  Home Remedies Post</li>
+          <li onclick="Maps()" >Medicine Locator</li>
+          <li onclick="update()">Latest Updates</li>
+        </ul>
+    </footer>
+</body>
+</html>
